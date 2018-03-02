@@ -1,0 +1,15 @@
+global-styling:
+  css:
+    theme:
+      css/bootstrap.css: {}
+      css/layout.css: {}
+      css/styles.css: {}
+  js:
+    js/bootstrap.bundle.js: {}
+    js/script.js: {}
+  dependencies:
+    - core/jquery
+font-awesome:
+  css:
+    theme:
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: { type: external }

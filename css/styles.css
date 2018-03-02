@@ -1,0 +1,90 @@
+body {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  line-height: 1.4; }
+
+.banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 236, 236, 0.5)), to(rgba(155, 204, 232, 0.5))), url(../images/banner-img.jpg) no-repeat left bottom;
+  background: -o-linear-gradient(rgba(247, 236, 236, 0.5), rgba(155, 204, 232, 0.5)), url(../images/banner-img.jpg) no-repeat left bottom;
+  background: linear-gradient(rgba(247, 236, 236, 0.5), rgba(155, 204, 232, 0.5)), url(../images/banner-img.jpg) no-repeat left bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 1em 0;
+  height: 56vh; }
+
+.breadcrumb {
+  background-color: #18e4d9;
+  border-radius: none; }
+
+@media screen and (min-width: 767px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row; }
+  body.layout-content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+  body.full-width .layout-content {
+    width: 100%; }
+  body.three-column .layout-sidebar-first {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 20%; }
+  body.three-column .layout-content {
+    width: 60%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+  body.three-column .layout-sidebar-second {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    width: 20%; }
+  body.two-column-left .layout-content {
+    width: 80%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+  body.two-column-left .layout-sidebar-first {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+  body.two-column-right .layout-content {
+    width: 80%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+  body.two-column-right .layout-sidebar-second {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+  /*
+.layout-sidebar-first,
+.layout-sidebar-second
+ {
+  width: 20%;
+}
+*/ }
+
+.node__content .column-left,
+.node__content .column-right {
+  width: 50%; }
+
+.pre-footer {
+  width: 100%;
+  background: #312828;
+  padding: 1rem 1.5rem;
+  min-height: 6rem; }
+
+/* using Ids is not region specific, so you may want to target specificity based on the pre-footer class */
+#block-poweredbydrupal {
+  color: #fff; }
+
+.region .region-pre-footer {
+  text-align: center;
+  background-color: #f9f9f9; }
